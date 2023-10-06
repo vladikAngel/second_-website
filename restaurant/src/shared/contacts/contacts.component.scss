@@ -1,0 +1,73 @@
+.head-footer{
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.footer-main{
+  background-color: white;
+  color: #2b1104;
+  border-radius: 5px;
+  padding: 10px 20px 7px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.main-kontakt{
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 30px;
+}
+.left-background{
+  background-image: url("/assets/images/home/lAST-FON.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 416px;
+  height: 656px;
+  border-radius: 5px;
+  color: white;
+  justify-content: space-around;
+}
+.backgroung-last{
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.text-up{
+  display: flex;
+  flex-direction: column;
+  height: 65%;
+  justify-content: space-around;
+}
+.text-down{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.director-main,
+.art-director-main,
+.telephone-main,
+.work-main,
+.adress-main{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.adress,
+.telephone,
+.work{
+  font-size: 17px;
+  text-align: center;
+}
+.last{
+  width: 316px;
+  display: block;
+  margin: auto;
+}

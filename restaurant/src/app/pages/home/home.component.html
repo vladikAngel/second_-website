@@ -1,0 +1,395 @@
+<div class="body">
+  <div class="first-block">
+    <div class="main-image">
+      <div class="since-block">
+        <div class="since">
+          <img src="./assets/images/home/since-button.png" alt="">
+        </div>
+        <span class="image-text">
+                TRUE. FONTANKA. <br> UNDERGROUND.
+            </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="columns-block">
+    <div class="second-block">
+      <div class="logic-buttons">
+        <div class="logic-button" id="button1" (click)="isSoon = true">
+            <span class="text-logic-button">
+                СКОРО
+            </span>
+        </div>
+        <div class="logic-button" id="button2" (click)="isSoon = false">
+            <span class="text-logic-button">
+                БЛИЖАЙШИЕ
+            </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="logic-text" id="block1" style="display: none;"></div>
+    <div class="logic-text" id="block2" style="display: none;"></div>
+
+    <div class="three-block">
+      <div class="three-fon" id="backgroundImage">
+
+        <div class="block-content" id="soon-block" *ngIf="isSoon">
+          <div style="display: flex">
+            <div class="image-block">
+              <img src="./assets/images/home/img1.png" alt="">
+            </div>
+            <div class="image-block">
+              <img src="./assets/images/home/img2.png" alt="">
+            </div>
+          </div>
+          <div style="display: flex; padding-top: 40px;">
+            <div class="image-block">
+              <img src="./assets/images/home/img2.png" alt="">
+            </div>
+            <div class="image-block">
+              <img src="./assets/images/home/img4.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="block-content" id="nearest-block" *ngIf="!isSoon">
+          <div style="display: flex">
+            <div class="image-block">
+              <img src="./assets/images/home/img4.png" alt="">
+            </div>
+            <div class="image-block">
+              <img src="./assets/images/home/img1.png" alt="">
+            </div>
+          </div>
+          <div style="display: flex; padding-top: 40px;">
+            <div class="image-block">
+              <img src="./assets/images/home/img2.png" alt="">
+            </div>
+            <div class="image-block">
+              <img src="./assets/images/home/img1.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="kitchen">
+  <div class="lead">
+    <div class="lead-header">
+            <span class="top-menu">
+                            TOP "MANHATTAN" MENU
+            </span>
+      <span class="main-kitchen">
+                            КУХНЯ
+            </span>
+    </div>
+
+    <div class="dish">
+      <div class="side-dish">
+        <img class="dish-screen" src="./assets/images/home/dish.png" alt=""/>
+        <div class="dish-info">
+          <div class="title-price">
+            <h1>AMET DONEC.</h1>
+            <p class="price">550 Р</p>
+          </div>
+          <p class="gramovka">200 гр</p>
+          <p class="description">Это изысканное блюдо, приготовленное из куриного филе,<br> с нежным
+            соусом
+            тар-тар и свежими листьями цезаря.</p>
+        </div>
+      </div>
+      <div class="side-dish">
+        <img class="dish-screen" src="./assets/images/home/dish2.png" alt=""/>
+        <div class="dish-info">
+          <div class="title-price">
+            <h1>AMET DONEC.</h1>
+            <p class="price">700 Р</p>
+          </div>
+          <p class="gramovka">300 гр</p>
+          <p class="description">Это изысканное блюдо, приготовленное из куриного филе,<br> с нежным
+            соусом
+            тар-тар и свежими листьями цезаря.</p>
+        </div>
+      </div>
+      <div class="side-dish">
+        <img class="dish-screen" src="./assets/images/home/dish3.png" alt=""/>
+        <div class="dish-info">
+          <div class="title-price">
+            <h1>AMET DONEC.</h1>
+            <p class="price">279 Р</p>
+          </div>
+          <p class="gramovka">150 гр</p>
+          <p class="description">Это изысканное блюдо, приготовленное из куриного филе,<br> с нежным
+            соусом
+            тар-тар и свежими листьями цезаря.</p>
+        </div>
+      </div>
+      <div class="side-dish">
+        <img class="dish-screen" src="./assets/images/home/dish4.png" alt=""/>
+        <div class="dish-info">
+          <div class="title-price">
+            <h1>AMET DONEC.</h1>
+            <p class="price">998 Р</p>
+          </div>
+          <p class="gramovka">900 гр</p>
+          <p class="description">Это изысканное блюдо, приготовленное из куриного филе,<br> с нежным
+            соусом
+            тар-тар и свежими листьями цезаря.</p>
+        </div>
+      </div>
+
+
+      <div class="side-dish">
+        <img class="dish-screen" src="./assets/images/home/dish5.png" alt=""/>
+        <div class="dish-info">
+          <div class="title-price">
+            <h1>AMET DONEC.</h1>
+            <p class="price">599 Р</p>
+          </div>
+          <p class="gramovka">450 гр</p>
+          <p class="description">Это изысканное блюдо, приготовленное из куриного филе,<br> с нежным
+            соусом
+            тар-тар и свежими листьями цезаря.</p>
+        </div>
+      </div>
+      <div class="side-dish">
+        <img class="dish-screen" src="./assets/images/home/dish6.png" alt=""/>
+        <div class="dish-info">
+          <div class="title-price">
+            <h1>AMET DONEC.</h1>
+            <p class="price">430 Р</p>
+          </div>
+          <p class="gramovka">750 гр</p>
+          <p class="description">Это изысканное блюдо, приготовленное из куриного филе,<br> с нежным
+            соусом
+            тар-тар и свежими листьями цезаря.</p>
+        </div>
+      </div>
+      <div class="side-dish">
+        <img class="dish-screen" src="./assets/images/home/dish7.png" alt=""/>
+        <div class="dish-info">
+          <div class="title-price">
+            <h1>AMET DONEC.</h1>
+            <p class="price">200 Р</p>
+          </div>
+          <p class="gramovka">500 гр</p>
+          <p class="description">Это изысканное блюдо, приготовленное из куриного филе,<br> с нежным
+            соусом
+            тар-тар и свежими листьями цезаря.</p>
+        </div>
+      </div>
+      <div class="side-dish">
+        <img class="dish-screen" src="./assets/images/home/dish8.png" alt=""/>
+        <div class="dish-info">
+          <div class="title-price">
+            <h1>AMET DONEC.</h1>
+            <p class="price">999 Р</p>
+          </div>
+          <p class="gramovka">1000 гр</p>
+          <p class="description">Это изысканное блюдо, приготовленное из куриного филе,<br> с нежным
+            соусом
+            тар-тар и свежими листьями цезаря.</p>
+        </div>
+      </div>
+    </div>
+    <div class="all-menu">
+      <a class='all-menusolid' href="@">ВСЁ МЕНЮ</a>
+    </div>
+  </div>
+</div>
+<div class="events-and-tourists">
+  <div class="main-events">
+    <div class="load-left">
+      <div class="load-button-left">
+        <span> TOP "MANHATTAN" EVENTS </span>
+      </div>
+
+      <div class="banquets">
+        <span>БАНКЕТЫ</span>
+        <p class="text-banquets"> Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in
+          sem viverra consequat.Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius
+          aliquam.<br>Mattis egestas suspendisse convallis eu arcu et aliquet.
+          Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo
+          sit posuere vulputate sed morbi.<br> Donec gravida at turpis sed pulvinar. A nibh non
+          consectetur morbi in arcu, in pellentesque mauris.
+          Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida
+          pretium diam semper at id eleifend.</p>
+        <div class="details">
+          <a class="details-left" href="@">ПОДРОБНЕЕ</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-events">
+      <img class="events-img" src="./assets/images/home/events.png" alt="">
+    </div>
+    <div class="load-right">
+      <div class="load-button-right">
+        <span> TOP "MANHATTAN" TOURISTS</span>
+      </div>
+      <div class="tourists">
+        <span> ТУРИСТЫ</span>
+        <p class="text-tourists">Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem
+          viverra consequat.Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius
+          aliquam.<br>Mattis egestas suspendisse convallis eu arcu et aliquet.
+          Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo
+          sit posuere vulputate sed morbi.<br> Donec gravida at turpis sed pulvinar. A nibh non
+          consectetur morbi in arcu, in pellentesque mauris.
+          Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida
+          pretium diam semper at id eleifend.</p>
+        <div class="more-details">
+          <a class="details-right" href="@">ПОДРОБНЕЕ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tehrider">
+  <div class="tehrider-heading">
+            <span class="tehrider-menu">
+                            TOP "MANHATTAN" PARTY
+            </span>
+    <span class="main-tehrider">
+                            ТЕХРАЙДЕР
+            </span>
+  </div>
+  <div class="akardion-and-right">
+    <div class="akardion-box">
+      <mat-accordion class="example-headers-align" multi>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              LOUDSPEAKERS
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          Acoustic system BELL Top 600W x 2
+          Acoustic system BELL Mid 600W x 2
+          Acoustic system BELL Sub 1000W x 2
+          Front monitor Yamaha SM12V 300w x 2
+          Backside monitor Dynacord 500W x 2
+        </mat-expansion-panel>
+      </mat-accordion>
+      <mat-accordion class="example-headers-align" multi>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              AMPLIFIER
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
+          adipisci ex impedit itaque labore. Dolorum tempore ipsum autem
+          molestias corrupti possimus voluptate, quos accusamus esse maiores
+          dolorem qui eaque facilis nemo nulla, amet excepturi laborum eveniet
+          eligendi aperiam nostrum culpa. Possimus architecto saepe quidem
+          quam molestiae! Incidunt deleniti quas dolore temporibus nisi
+          voluptates non dolores excepturi dicta ducimus asperiores quam,
+          neque totam ratione reiciendis consequatur a quasi inventore vero
+          doloribus commodi? Dolorem consequatur laborum blanditiis.
+        </mat-expansion-panel>
+      </mat-accordion>
+      <mat-accordion class="example-headers-align" multi>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              FON
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
+          adipisci ex impedit itaque labore. Dolorum tempore ipsum autem
+          molestias corrupti possimus voluptate, quos accusamus esse maiores
+          dolorem qui eaque facilis nemo nulla, amet excepturi laborum eveniet
+          eligendi aperiam nostrum culpa. Possimus architecto saepe quidem
+          quam molestiae! Incidunt deleniti quas dolore temporibus nisi
+          voluptates non dolores excepturi dicta ducimus asperiores quam,
+          neque totam ratione reiciendis consequatur a quasi inventore vero
+          doloribus commodi? Dolorem consequatur laborum blanditiis.
+        </mat-expansion-panel>
+      </mat-accordion>
+      <mat-accordion class="example-headers-align" multi>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              BACKLINE
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
+          adipisci ex impedit itaque labore. Dolorum tempore ipsum autem
+          molestias corrupti possimus voluptate, quos accusamus esse maiores
+          dolorem qui eaque facilis nemo nulla, amet excepturi laborum eveniet
+          eligendi aperiam nostrum culpa. Possimus architecto saepe quidem
+          quam molestiae! Incidunt deleniti quas dolore temporibus nisi
+          voluptates non dolores excepturi dicta ducimus asperiores quam,
+          neque totam ratione reiciendis consequatur a quasi inventore vero
+          doloribus commodi? Dolorem consequatur laborum blanditiis.
+        </mat-expansion-panel>
+      </mat-accordion>
+      <mat-accordion class="example-headers-align" multi>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              MICROPHONE SET
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
+          adipisci ex impedit itaque labore. Dolorum tempore ipsum autem
+          molestias corrupti possimus voluptate, quos accusamus esse maiores
+          dolorem qui eaque facilis nemo nulla, amet excepturi laborum eveniet
+          eligendi aperiam nostrum culpa. Possimus architecto saepe quidem
+          quam molestiae! Incidunt deleniti quas dolore temporibus nisi
+          voluptates non dolores excepturi dicta ducimus asperiores quam,
+          neque totam ratione reiciendis consequatur a quasi inventore vero
+          doloribus commodi? Dolorem consequatur laborum blanditiis.
+        </mat-expansion-panel>
+      </mat-accordion>
+      <mat-accordion class="example-headers-align" multi>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              DJ EQUIPMENT
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
+          adipisci ex impedit itaque labore. Dolorum tempore ipsum autem
+          molestias corrupti possimus voluptate, quos accusamus esse maiores
+          dolorem qui eaque facilis nemo nulla, amet excepturi laborum eveniet
+          eligendi aperiam nostrum culpa. Possimus architecto saepe quidem
+          quam molestiae! Incidunt deleniti quas dolore temporibus nisi
+          voluptates non dolores excepturi dicta ducimus asperiores quam,
+          neque totam ratione reiciendis consequatur a quasi inventore vero
+          doloribus commodi? Dolorem consequatur laborum blanditiis.
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="tehrider-right">
+      <div class="text-tehrider-right">
+        <span> ЗВУКОРЕЖИССЕРЫ<br>КЛУБА МАНХЭТТЕН</span>
+      </div>
+      <div class="images-tehriders">
+        <div class="image-tehrider-left">
+          <img class="tehrider-left-img" src="./assets/images/home/tehriderONE.png" alt="">
+          <div class="izotov">
+            <span> ИЗОТОВ<br>КОНСТАНТИН</span>
+          </div>
+          <div class="vk-tel-left">
+            <img src="./assets/images/home/telega.png" alt="">
+            <img src="./assets/images/home/VK.png" alt="">
+          </div>
+        </div>
+        <div class="image-tehrider-right">
+          <img class="tehrider-right-img" src="./assets/images/home/tehriderTWO.png" alt="">
+          <div class="hoziev">
+            <span> ДАВИД<br>ХОЗИЕВ</span>
+          </div>
+          <div class="vk-tel-right">
+            <img src="./assets/images/home/telega.png" alt="">
+            <img src="./assets/images/home/VK.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-contacts></app-contacts>
+</div>

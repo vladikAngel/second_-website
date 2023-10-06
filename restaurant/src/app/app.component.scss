@@ -1,0 +1,14 @@
+.container {
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+::ng-deep body {
+  margin: unset;
+  background-color: #2b1104;
+}
+.content {
+  padding: 16px;
+}

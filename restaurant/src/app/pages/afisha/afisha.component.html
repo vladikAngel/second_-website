@@ -1,0 +1,60 @@
+<div class="body">
+  <div class="afisha">
+    <div class="afisha-head">
+                      <span class="text-head">
+                            TOP "MANHATTAN" PARTY
+                       </span>
+      <span class="text-head-second">
+                            АФИША
+                        </span>
+    </div>
+  </div>
+</div>
+<div class="main-block">
+  <div class="images">
+    <div class="image-up">
+      <div class="image-block" *ngFor="let photo of photos" [ngStyle]="{'background-image' : 'url(/assets/images/home/' + photo.image + ')'}">
+        <div class="all-text-none">
+          <div class="text">
+                            <span class="date">
+                               {{photo.date}}
+                            </span>
+            <span class="price">
+                                {{photo.price}} ₽
+                            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-average">
+      <div class="image-block" *ngFor="let photo of photos2" [ngStyle]="{'background-image' : 'url(/assets/images/home/' + photo.image + ')'}">
+        <div class="all-text-none">
+          <div class="text">
+                            <span class="date">
+                               {{photo.date}}
+                            </span>
+            <span class="price">
+                                {{photo.price}} ₽
+                            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-down">
+      <div class="image-block" *ngFor="let photo of photos3" [ngStyle]="{'background-image' : 'url(/assets/images/home/' + photo.image + ')'}">
+        <div class="all-text-none">
+          <div class="text">
+                            <span class="date">
+                               {{photo.date}}
+                            </span>
+            <span class="price">
+                                {{photo.price}} ₽
+                            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-contacts></app-contacts>
+

@@ -1,0 +1,22 @@
+
+<div class="body">
+  <div class="gallery">
+    <div class="gallery-head">
+                      <span class="text-head">
+                            TOP "MANHATTAN" PHOTO
+                       </span>
+      <span class="text-head-second">
+                            ГАЛЕРЕЯ
+                        </span>
+    </div>
+  </div>
+</div>
+<div class="main-block">
+    <div class="images">
+      <img class="image" *ngFor="let photo of photos" [routerLink]="['/assets/images/home/' + photo]" [src]="'./assets/images/home/' + photo" alt="">
+  </div>
+</div>
+<app-contacts></app-contacts>
+
+
+

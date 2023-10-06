@@ -1,0 +1,75 @@
+.corporate-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-head {
+  background-color: white;
+  color: #2b1104;
+  border-radius: 5px;
+  padding: 10px 20px 7px 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-head-second {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 20px;
+}
+.text-under-head{
+  color: white;
+  display: flex;
+  font-size: 24px;
+  justify-content: space-around;
+  font-weight: 700;
+}
+.price-list{
+  display: flex;
+  justify-content: space-evenly;
+}
+.left-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.right-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.5rem;
+}
+.photo-left{
+  max-width: 90px;
+  max-height: 90px;
+}
+.tex-under-right,
+.text-under-left{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.text-under-body{
+  color: white;
+  display: flex;
+  font-size: 24px;
+  justify-content: space-around;
+  font-weight: 700;
+}
+.text-first{
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+li {
+  list-style-image: url('/assets/images/home/all.png');
+}

@@ -1,0 +1,30 @@
+.gallery-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-head {
+  background-color: white;
+  color: #2b1104;
+  border-radius: 5px;
+  padding: 10px 20px 7px 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-head-second {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 20px;
+}
+.images{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+
+}
+.image{
+  padding: 10px;
+}
